@@ -7,7 +7,7 @@ import helper
 from streamlit_option_menu import option_menu
 with st.sidebar:
     st.image('https://www.slashgear.com/img/gallery/how-to-enable-encryption-for-your-whatsapp-chat-backup-on-android-or-iphone/l-intro-1692026821.jpg')
-    selected = st.selectbox('Select Page', ['Introduction page','Analyser'])
+    selected = option_menu('Select Page', ['Introduction page','Analyser'])
     st.title("Hint")
     st.info("For analysis open any whatsapp gropu or individual contact-click on 3 dots-select more-export chat-without media-upload below")
 
